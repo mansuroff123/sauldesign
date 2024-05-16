@@ -39,4 +39,56 @@
     height: 100vh;
     background-color: #222831;
 }
+
+.logo {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.nav_font {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.creative {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 96px;
+  color: #fff;
+}
+.designer {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 96px;
+  color: #00ADB5;
+}
+.btn_hire {
+  color: #fff;
+  background-color: #00ADB5;
+  border-radius: 24px;
+  padding: 8px 24px;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 18px;
+}
+.btn_hire:hover {
+  background-color: #393E46;
+  color: #fff;
+}
+.btn_cv {
+  color: #fff;
+  background-color: #393E46;
+  border-radius: 24px;
+  padding: 8px 24px;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.btn_cv:hover {
+  background-color: #444a55;
+  color: #fff;
+}
 /* ----------------- Home page End ----------------- */
