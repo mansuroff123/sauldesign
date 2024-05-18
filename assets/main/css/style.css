@@ -55,13 +55,13 @@
 .creative {
   font-family: 'Poppins';
   font-weight: 700;
-  font-size: 96px;
+  font-size: 76px;
   color: #fff;
 }
 .designer {
   font-family: 'Poppins';
   font-weight: 700;
-  font-size: 96px;
+  font-size: 76px;
   color: #00ADB5;
 }
 .btn_hire {
@@ -91,4 +91,40 @@
   background-color: #444a55;
   color: #fff;
 }
+
+.home_back {
+  margin-top: -200px;
+}
+
+.home_illustrator {
+  margin-top: -50px
+}
+
+.cs_row {
+  height: 100%;
+}
+
 /* ----------------- Home page End ----------------- */
+
+@media screen and (max-width: 992px) {
+  .home_vector {
+    display: none;
+  }
+
+  .home_back {
+    display: none;
+  }
+
+  .home_illustrator {
+    display: none;
+  }
+  
+  .home_text {
+    margin-top: 30%;
+  }
+
+  .cs_row {
+    height: 50%;
+  }
+
+}
