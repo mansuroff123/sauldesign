@@ -104,7 +104,28 @@
   height: 100%;
 }
 
+.btn_arrow {
+  background-color: #393E46;
+  padding: 30px 38px;
+  display: inline-block;
+}
+
+.btn_arrow:hover {
+  background-color: #444a55;
+}
+
+.position_arrow {
+  margin-left: 40%;
+}
+
 /* ----------------- Home page End ----------------- */
+
+
+@media screen and (max-width: 576px) {
+  .creative, .designer {
+    font-size: 60px;
+  }
+}
 
 @media screen and (max-width: 992px) {
   .home_vector {
@@ -127,4 +148,16 @@
     height: 50%;
   }
 
+  .btn_arrow {
+    padding: 14px 20px;
+  }
+
+  .btn_arrow img {
+    width: 16px;
+    height: 28px;
+  }
+
+  .position_arrow {
+    margin-left: 80%;
+  }
 }
