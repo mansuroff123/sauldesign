@@ -112,6 +112,7 @@ body {
   background-color: #393E46;
   padding: 30px 38px;
   display: inline-block;
+  margin-top: 200px
 }
 
 .btn_arrow:hover {
@@ -184,7 +185,7 @@ body {
 @media screen and (max-width: 992px) {
 
   .home {
-    height: 80vh;
+    height: 100%;
   }
 
   .about_back {
