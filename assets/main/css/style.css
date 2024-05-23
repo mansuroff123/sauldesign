@@ -33,6 +33,10 @@
     box-sizing: border-box;
 }
 
+body {
+  background-color: #222831;
+}
+
 /* ----------------- Home page Begin ----------------- */
 .home {
     width: 100%;
@@ -144,6 +148,19 @@
   color: #fff;
   font-weight: 400;
 }
+
+.about_illustrator {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 120px;
+}
+
+.about {
+  height: 80vh;
+}
+.about_back {
+  margin-top: -200px
+}
 /* ----------------- About Section End ----------------- */
 
 
@@ -151,9 +168,34 @@
   .creative, .designer {
     font-size: 60px;
   }
+
+  .about_back {
+    margin-top: 0;
+    position: static;
+  }
+
+  .about_illustrator {
+    margin-top: 60px;
+    margin-left: 20px;
+    position: static;
+  }
 }
 
 @media screen and (max-width: 992px) {
+
+  .about_back {
+    margin-top: 0;
+    position: static;
+  }
+
+  .about_illustrator {
+    margin-top: 60px;
+    margin-left: 20px;
+    position: static;
+  }
+  .about {
+    height: 100%;
+  }
   .home_vector {
     display: none;
   }
