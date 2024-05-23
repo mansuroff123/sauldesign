@@ -121,6 +121,32 @@
 /* ----------------- Home page End ----------------- */
 
 
+/* ----------------- About Section Begin ----------------- */
+.about {
+  background-color: #222831;
+}
+
+.w_header {
+  color: #fff;
+}
+.b_header {
+  color: #00ADB5;
+}
+.d_header {
+  font-family: 'Poppins';
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.d_text {
+  font-family: 'Poppins';
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+}
+/* ----------------- About Section End ----------------- */
+
+
 @media screen and (max-width: 576px) {
   .creative, .designer {
     font-size: 60px;
