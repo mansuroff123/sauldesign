@@ -183,6 +183,10 @@ body {
 
 @media screen and (max-width: 992px) {
 
+  .home {
+    height: 90vh;
+  }
+
   .about_back {
     margin-top: 0;
     position: static;
