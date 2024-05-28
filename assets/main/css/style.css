@@ -164,6 +164,44 @@ body {
 }
 /* ----------------- About Section End ----------------- */
 
+/* ----------------- Works Section Begin ----------------- */
+.works {
+  background-image: url("../imgs/works_doodle_items.png");
+  background-repeat: repeat;
+}
+
+.works_btn {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 24px;
+  backdrop-filter: blur(8px);
+  background: rgba(57, 62, 70, 0.5);
+  text-decoration: none;
+  color: #EEEEEE;
+}
+
+.active_btn {
+  background: #00ADB5;
+}
+
+.works_btn:hover:not(.active_btn) {
+  background: rgba(57, 62, 70, 1); 
+}
+
+.cs_card {
+  padding: 40px;
+  border-radius: 16px;
+  backdrop-filter: blur(4px);
+  background: rgba(57, 62, 70, 0.5);
+  width: 100%;
+}
+
+/* ----------------- Works Section End ----------------- */
+
+
 
 @media screen and (max-width: 576px) {
   .creative, .designer {
@@ -172,14 +210,13 @@ body {
 
   .about_back {
     margin-top: 0;
-    position: static;
   }
 
   .about_illustrator {
     margin-top: 60px;
     margin-left: 20px;
-    position: static;
   }
+  
 }
 
 @media screen and (max-width: 992px) {
@@ -189,16 +226,22 @@ body {
   .home {
     height: 100%;
   }
+  .about {
+    height: 100%;
+  }
 
   .about_back {
     margin-top: 0;
-    position: static;
   }
+
+  .cs_height {
+    height: 45vh;
+  }
+  
 
   .about_illustrator {
     margin-top: 60px;
     margin-left: 20px;
-    position: static;
   }
   .about {
     height: 100%;
