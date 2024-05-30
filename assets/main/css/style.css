@@ -203,6 +203,35 @@ body {
 
 
 
+/* ----------------- Project Section Begin ----------------- */
+
+.my_label {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 700;
+  color: #eeeeee
+}
+
+.cs_form {
+  font-family: "Poppins";
+  border-radius: 16px;
+  background-color: #393E46;
+  border: none;
+  padding: 16px 24px;
+}
+
+.cs_form::placeholder {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(238, 238, 238, 0.5);
+}
+
+
+/* ----------------- Project Section End ----------------- */
+
+
+
 @media screen and (max-width: 576px) {
   .creative, .designer {
     font-size: 60px;
