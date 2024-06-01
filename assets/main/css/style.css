@@ -227,6 +227,21 @@ body {
   color: rgba(238, 238, 238, 0.5);
 }
 
+.message_btn {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 18px;
+  color: #eee;
+  padding: 8px 30px;
+  background-color: #00ADB5;
+  border: none;
+  border-radius: 50px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.message_btn:hover {
+  background-color: #008C9E;
+}
 
 /* ----------------- Project Section End ----------------- */
 
