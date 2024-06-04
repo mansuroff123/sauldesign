@@ -246,6 +246,17 @@ body {
 /* ----------------- Project Section End ----------------- */
 
 
+/* ----------------- Footer Section Begin ----------------- */
+.footer_link {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  color: #eee;
+  text-decoration: none;
+}
+/* ----------------- Footer Section End ----------------- */
+
+
 
 @media screen and (max-width: 576px) {
   .creative, .designer {
