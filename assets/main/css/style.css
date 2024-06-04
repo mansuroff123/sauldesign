@@ -254,6 +254,23 @@ body {
   color: #eee;
   text-decoration: none;
 }
+
+.social_item {
+  background-color: #393E46;
+  padding: 11px 12px;
+  border-radius: 50%;
+}
+
+.social_item:hover {
+  background-color: #444a55;
+}
+
+.terms {
+  color: #eee;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Poppins";
+}
 /* ----------------- Footer Section End ----------------- */
 
 

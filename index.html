@@ -11,7 +11,7 @@
 
 <body>
   <!-- ################# Home page begin ################# -->
-  <div class="home">
+  <div class="home" id="home">
     <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
       <div class="container">
         <a class="navbar-brand logo" href="#">SaulDesign</a>
@@ -22,13 +22,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
             <li class="nav-item">
-              <a class="nav-link nav_font active" aria-current="page" href="#">Home</a>
+              <a class="nav-link nav_font active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav_font" href="#">About Me</a>
+              <a class="nav-link nav_font" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav_font" href="#">Contact</a>
+              <a class="nav-link nav_font" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -147,7 +147,7 @@
 
 
   <!-- ################# Project Section Begin ################# -->
-  <div class="project py-5">
+  <div class="project py-5" id="contact">
     <div class="container">
       <div class="d-flex justify-content-center ms-5 mb-3">
         <img src="assets/main/imgs/keyboard.svg" alt="keyboard">
@@ -197,25 +197,27 @@
 
   <footer class="py-5">
     <div class="container">
-      <div class="footer_nav d-flex justify-content-center gap-5">
-        <a href="#" class="text-decoration-none"> <img src="assets/main/imgs/home.svg" class="mb-2" alt="home"> <span class="footer_link ms-2">Home</span></a>
-        <a href="#" class="text-decoration-none"> <img src="assets/main/imgs/user.svg" class="mb-2" alt="user"> <span class="footer_link ms-2">About me</span> </a>
-        <a href="#" class="text-decoration-none"> <img src="assets/main/imgs/phone.svg" class="mb-2" alt="contact"> <span class="footer_link ms-2">Contact</span> </a>
+      <div class="footer_nav d-flex justify-content-center gap-2 gap-md-5">
+        <a href="#home" class="text-decoration-none"> <img src="assets/main/imgs/home.svg" class="mb-2" alt="home"> <span class="footer_link ms-2">Home</span></a>
+        <a href="#about" class="text-decoration-none"> <img src="assets/main/imgs/user.svg" class="mb-2" alt="user"> <span class="footer_link ms-2">About me</span> </a>
+        <a href="#contact" class="text-decoration-none"> <img src="assets/main/imgs/phone.svg" class="mb-2" alt="contact"> <span class="footer_link ms-2">Contact</span> </a>
       </div>
-      <div class="social_media">
-        <div>
+      <div class="social_media d-flex justify-content-center gap-3 py-4">
+        <div class="social_item">
           <img src="assets/main/imgs/facebook.svg" alt="facebook">
         </div>
-        <div>
+        <div class="social_item">
           <img src="assets/main/imgs/instagram.svg" alt="instagram">
         </div>
-        <div>
+        <div class="social_item">
           <img src="assets/main/imgs/twitter.svg" alt="twitter">
         </div>
-        <div>
+        <div class="social_item">
           <img src="assets/main/imgs/youtube.svg" alt="youtube">
         </div>
       </div>
+
+      <p class="terms text-md-end text-center">Terms of Service - Privacy Policy</p>
     </div>
   </footer>
 
