@@ -259,10 +259,12 @@ body {
   background-color: #393E46;
   padding: 11px 12px;
   border-radius: 50%;
+  transition: 1s;
 }
 
 .social_item:hover {
   background-color: #444a55;
+  rotate: 360deg;
 }
 
 .terms {
@@ -315,9 +317,7 @@ body {
     margin-top: 60px;
     margin-left: 20px;
   }
-  .about {
-    height: 100%;
-  }
+  
   .home_vector {
     display: none;
   }
